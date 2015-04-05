@@ -9,8 +9,6 @@ class SMSClient:
     fromNumber = ""
 
     def __init__(self, toNum, fromNum, sid, token):
-        print toNum
-        print fromNum
         self.toNumber = toNum
         self.fromNumber = fromNum
         self.account_sid = sid
